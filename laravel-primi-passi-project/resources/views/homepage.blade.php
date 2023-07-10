@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+ header{
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+</style>
+
 <body>
-   Ciao questa è la homepage, benvenuto :) 
+
+    <header>
+        <h1>
+        questo è l'header
+        </h1>
+    </header>
+   Ciao {{ $name }} questa è la homepage, benvenuto :) 
     
 </body>
 </html>

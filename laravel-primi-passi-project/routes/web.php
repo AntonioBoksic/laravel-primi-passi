@@ -22,5 +22,8 @@ Route::get('/initializer', function () {
 });
 
 Route::get('/', function () {
-    return view("homepage");
+
+    $name = "Guybrush";
+
+    return view("homepage", compact("name"));
 });
