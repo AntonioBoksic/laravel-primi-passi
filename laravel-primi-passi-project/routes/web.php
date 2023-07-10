@@ -27,3 +27,13 @@ Route::get('/', function () {
 
     return view("homepage", compact("name"));
 });
+
+Route::get('/prodotti', function () {
+
+     return view("prodotti");
+});
+
+Route::get('/contatti', function () {
+
+    return view("contatti");
+});
